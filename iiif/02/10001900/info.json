@@ -1,0 +1,26 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 1, 2, 4 ],
+    "width" : 1280,
+    "height" : 1280
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 1069,
+    "height" : 1091
+  }, {
+    "width" : 1425,
+    "height" : 1455
+  }, {
+    "width" : 2138,
+    "height" : 2183
+  }, {
+    "width" : 4277,
+    "height" : 4366
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 4277,
+  "@id" : "https://hou2zi0.github.io/doc/iiif/02/10001900",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 4366
+}

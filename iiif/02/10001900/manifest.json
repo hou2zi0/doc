@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://hou2zi0.github.io/doc/iiif/02/10001900/manifest.json",
+  "label": "Papillons",
+  "description": "Four patterns inspired by butterflies.",
+  "attribution": "Special Collections Research Center at NCSU Libraries",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://hou2zi0.github.io/doc/iiif/02/10001900/canvas/1",
+          "label": "22",
+          "width": 4277,
+          "height": 4366,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://hou2zi0.github.io/doc/iiif/02/10001900/canvas/1",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://hou2zi0.github.io/doc/iiif/02/10001900/full/full/0/default.jpg",
+
+                "service": {
+                  "@context":  "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://hou2zi0.github.io/doc/iiif/02/10001900",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
